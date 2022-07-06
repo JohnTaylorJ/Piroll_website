@@ -1,0 +1,173 @@
+$font-color: #808080;
+$btn-color: #10c9c3;
+$font: 'Montserrat', sans-serif;
+$bg-color: #e9e9e9;
+
+// Burger menu
+
+.burger {
+	display: none;
+	img {
+		width: 20px;
+	}
+	img:hover {
+		border: 1px solid $btn-color;
+	}
+}
+
+.show-menu {
+	position: absolute;
+	background: rgba(136,240,238,0.4);
+	left: 0;
+	top: 0;
+	width: 50%;
+	padding: 40px 20px 20px 40px;
+	display: flex;
+	flex-direction: column;
+
+	.link {
+		display: block;
+		line-height: 2em;
+		&:hover {
+			color: $btn-color;
+		}
+	}
+}
+
+@media  screen and (max-width: 1164px) {
+
+	main .needAProject .form_wrapper {
+
+		form {
+			padding-left: 50px;
+			padding-right: 50px;
+		}
+		.Name {
+			grid-column: 1/-1;
+		}
+		.Email {
+			grid-column: 1/-1;
+		}
+		.Title {
+			grid-column: 1/-1;
+		}
+		.Comment {
+			grid-column: 1/-1;
+		}
+	}
+}
+
+@media  screen and (max-width: 972px) {
+	
+	main .statistic .wrapper_statistic {
+		justify-content: center;
+		.disappear {
+			display: none;
+		}
+		.arrows {
+			display: block;
+			font-size: 1.5em;
+		}
+		.prev_slide {
+			left: 7.2%;
+			margin: auto;
+		}
+		.next_slide {
+			right: 7.2%;
+			margin: auto;
+		}
+	}
+
+	main .workProcess .workProcess_header {
+		padding: 0 100px;
+	}
+	main .testimonials p {
+		margin: 0 auto;
+	}
+	main .clients .clients_logo {
+		display: flex;
+		justify-content: center;
+		.disappear {
+			display: none;
+		}
+		.arrows {
+			display: block;
+			font-size: 1.5em;
+		}
+		.prev_logo {
+			left: 7.2%;
+			margin: auto;
+		}
+		.next_logo {
+			right: 7.2%;
+			margin: auto;
+		}
+	}
+	footer .footer_content_list {
+		flex-direction: column;
+		align-items: flex-start;
+		ul {
+			margin-top: 20px;
+		}
+	}
+}
+
+
+
+@media  screen and (max-width: 768px) {
+	.link {
+		display: none;
+
+	}
+
+	.burger {
+		display: block;
+	}
+
+	header .description {
+		margin: 200px 50px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		&_btn {
+			width: 30%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+	}
+
+	main .professionalSkills_wrapper {
+		width: 100%;
+	}
+
+	main .services .services_wrapper {
+		display: flex;
+		justify-content: center;
+		.disappear {
+			display: none;
+		}
+		.arrows {
+			display: block;
+			font-size: 1.5em;
+		}
+		.prev_item {
+			left: 7.2%;
+			margin: auto;
+		}
+		.next_item {
+			right: 7.2%;
+			margin: auto;
+		}
+	}
+} 
+
+
+
+
+
+
+
+

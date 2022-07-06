@@ -1,0 +1,144 @@
+.burger {
+  display: none; }
+  .burger img {
+    width: 20px; }
+  .burger img:hover {
+    border: 1px solid #10c9c3; }
+
+.show-menu {
+  position: absolute;
+  background: rgba(136, 240, 238, 0.4);
+  left: 0;
+  top: 0;
+  width: 50%;
+  padding: 40px 20px 20px 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  .show-menu .link {
+    display: block;
+    line-height: 2em; }
+    .show-menu .link:hover {
+      color: #10c9c3; }
+
+@media screen and (max-width: 1164px) {
+  main .needAProject .form_wrapper form {
+    padding-left: 50px;
+    padding-right: 50px; }
+  main .needAProject .form_wrapper .Name {
+    grid-column: 1/-1; }
+  main .needAProject .form_wrapper .Email {
+    grid-column: 1/-1; }
+  main .needAProject .form_wrapper .Title {
+    grid-column: 1/-1; }
+  main .needAProject .form_wrapper .Comment {
+    grid-column: 1/-1; } }
+@media screen and (max-width: 972px) {
+  main .statistic .wrapper_statistic {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    main .statistic .wrapper_statistic .disappear {
+      display: none; }
+    main .statistic .wrapper_statistic .arrows {
+      display: block;
+      font-size: 1.5em; }
+    main .statistic .wrapper_statistic .prev_slide {
+      left: 7.2%;
+      margin: auto; }
+    main .statistic .wrapper_statistic .next_slide {
+      right: 7.2%;
+      margin: auto; }
+
+  main .workProcess .workProcess_header {
+    padding: 0 100px; }
+
+  main .testimonials p {
+    margin: 0 auto; }
+
+  main .clients .clients_logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    main .clients .clients_logo .disappear {
+      display: none; }
+    main .clients .clients_logo .arrows {
+      display: block;
+      font-size: 1.5em; }
+    main .clients .clients_logo .prev_logo {
+      left: 7.2%;
+      margin: auto; }
+    main .clients .clients_logo .next_logo {
+      right: 7.2%;
+      margin: auto; }
+
+  footer .footer_content_list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
+    footer .footer_content_list ul {
+      margin-top: 20px; } }
+@media screen and (max-width: 768px) {
+  .link {
+    display: none; }
+
+  .burger {
+    display: block; }
+
+  header .description {
+    margin: 200px 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center; }
+    header .description_btn {
+      width: 30%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+
+  main .professionalSkills_wrapper {
+    width: 100%; }
+
+  main .services .services_wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    main .services .services_wrapper .disappear {
+      display: none; }
+    main .services .services_wrapper .arrows {
+      display: block;
+      font-size: 1.5em; }
+    main .services .services_wrapper .prev_item {
+      left: 7.2%;
+      margin: auto; }
+    main .services .services_wrapper .next_item {
+      right: 7.2%;
+      margin: auto; } }
