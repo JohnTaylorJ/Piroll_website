@@ -40,9 +40,8 @@ function indexMinus (arr, index) {
 }
 
 function showSlide (arr, index ) {
-	for (let i = 0; i < arr.length; i++) {
-		arr[i].style.display = 'none';
-	}
+	
+	arr.forEach(item => item.style.display = 'none')
 	
 	arr[index].style.display = 'block';
 
